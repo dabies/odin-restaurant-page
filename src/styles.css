@@ -13,13 +13,22 @@ header {
 header button {
     background-color: aliceblue;
     padding: 5px 10px;
-    border-radius: 5px;
+    border-radius: 10px;
+    border-color: lightblue;
     font-size: 2em;
     margin: 1em;
 }
 
 button:active {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+button:hover {
+    background-color: rgb(168, 201, 212);
+}
+
+.highlighted {
+    background-color: rgb(168, 201, 212);
 }
 
 .content {
@@ -42,6 +51,11 @@ img {
 
 .text {
     grid-column: 2 / 3;
+    margin: 30px;
+    height: 300px;
+    width: 300px;
+    border-radius: 50px;
+    background-color: rgb(123, 171, 187);
     padding: 50px;
 }
 

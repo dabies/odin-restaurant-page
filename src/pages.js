@@ -19,10 +19,13 @@ function addImage(page) {
     const pageImage = document.createElement('img');
     if (page === 'menu') {
         pageImage.src = menuImg;
+        pageImage.alt = "Our Menu (It's the waffle house menu)";
     } else if (page === 'about') {
         pageImage.src = aboutImg;
+        pageImage.alt = 'A picture of me pitching in Leon, Mexico';
     } else if (page === 'home') {
         pageImage.src = homeImg;
+        pageImage.alt = 'A picture of a taco shack in Coronado, California. I recommend the brisket taco.';
     }
     imageDiv.appendChild(pageImage);
     $pageDiv.appendChild(imageDiv);
