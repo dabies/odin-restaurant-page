@@ -51,9 +51,9 @@ img {
 
 .text {
     grid-column: 2 / 3;
-    margin: 30px;
-    height: 300px;
-    width: 300px;
+    margin: 5vh;
+    height: 40vh;
+    width: 40vh;
     border-radius: 50px;
     background-color: rgb(123, 171, 187);
     padding: 50px;
